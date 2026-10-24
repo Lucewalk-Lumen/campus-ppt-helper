@@ -5,7 +5,7 @@
 > A campus presentation expert team covering teaching, thesis-defense, internship and Party-building scenarios, from information collection and structure planning to official-skill PPT building and four-dimension quality assurance.
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/WorkBuddy-Experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
+Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
 
 
 ## What it does
