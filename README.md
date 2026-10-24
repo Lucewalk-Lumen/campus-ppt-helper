@@ -2,20 +2,24 @@
 
 **校园演示帮手团** · v1.0.3 · `team`
 
-> A campus presentation expert team covering teaching, thesis-defense, internship and Party-building scenarios, from information collection and structure planning to official-skill PPT building and four-dimension quality assurance.
+> Campus presentation helper — slide building for teaching and academic settings
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
+Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
 
 
 ## What it does
 
-- **campus-ppt-core** — "Core shared protocol for the Campus PPT Helper Team. Consult it for PPT triage, light/heavy mode split, outline-confirm gate, skill-routing
-- **campus-ppt-collect** — "Collection playbook for the Campus PPT Helper Team's collector. Consult it for browser-skill web crawling, multi-source cross-verified gath
-- **campus-ppt-media** — "Media & case standard shared across the Campus PPT Helper Team (collector / architect / maker / qa). Consult it for image / chart / table s
-- **campus-ppt-design** — "Structure & layout-planning playbook for the Campus PPT Helper Team's content architect. Consult it for page-type contract, content condens
-- **campus-ppt-make** — "Official-skill build playbook for the Campus PPT Helper Team's maker. Consult it for tencent-pptx / tencent-local-office-edit / WPS routing
-- **campus-ppt-qa** — "QA playbook for the Campus PPT Helper Team's inspector. Consult it for four-dimension QA (task completion / instruction compliance / fact d
+- **Content architect** — structures the storyline before any slide exists
+- **Collector & asset retriever** — gathers and organizes source material and media assets
+- **Slide maker** — produces the deck itself
+- **QA reviewer** — reviews the deck for logic, layout and audience fit before you present
+
+## How it works
+
+- A six-member assembly line: collect → architect → retrieve assets → make → QA
+- Six dedicated skills (collect / core / design / make / media / qa) map one-to-one to the pipeline
+- QA is a separate agent, so the reviewer is never the author
 
 ## Agent roster
 
@@ -28,16 +32,23 @@ Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) co
 | `campus-ppt-maker` | 制作员·成章 |
 | `campus-ppt-qa` | 质检员·严检 |
 
+## Skills
+
+`campus-ppt-collect` · `campus-ppt-core` · `campus-ppt-design` · `campus-ppt-make` · `campus-ppt-media` · `campus-ppt-qa`
+
 ## Install
 
 1. Download the package zip from [Releases](https://github.com/Lucewalk/campus-ppt-helper/releases) or clone this repo;
-2. Unzip keeping the internal manifest structure intact;
+2. Unzip keeping the `.codebuddy-plugin/` manifest structure intact;
 3. Import/register in WorkBuddy (custom connector → trust & enable).
+
 
 ## Version
 
-Current release: **v1.0.3** — see [CHANGELOG.md](CHANGELOG.md) if present, or the package manifest.
+Current release: **v1.0.3**. See the package manifest for details.
+
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
